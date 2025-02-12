@@ -73,28 +73,6 @@ This guide will walk you through the necessary steps to configure the database, 
 
 ---
 
-## Configure the Database
-
-### Update the Connection String
-
-Update the connection string in the `appsettings.json` file with your database credentials:
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=your_server;Database=StoreSphereDB;User Id=your_user;Password=your_password;TrustServerCertificate=True;"
-}
----
-
-# Run EF Core Migrations
-To create the database, run the following EF Core migration commands:
-
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-
-
-
-#Configure JWT
-Add the JWT settings to the appsettings.json file:
 
 ![image](https://github.com/user-attachments/assets/bc34cbaf-45b7-46cb-9a33-22d764b71e91)
 
