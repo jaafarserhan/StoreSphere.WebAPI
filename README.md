@@ -33,3 +33,58 @@ StoreSphere is a **.NET Core WebAPI** project that provides a robust backend for
 ---
 
 ## 🗂️ Project Structure
+
+StoreSphere.WebAPI/
+├── Controllers/
+│ ├── UserController.cs
+│ ├── StoreController.cs
+│ ├── BrandController.cs
+│ ├── ProductController.cs
+├── Services/
+│ ├── UserService.cs
+│ ├── StoreService.cs
+│ ├── BrandService.cs
+│ ├── ProductService.cs
+├── Repositories/
+│ ├── UserRepository.cs
+│ ├── StoreRepository.cs
+│ ├── BrandRepository.cs
+│ ├── ProductRepository.cs
+├── Interfaces/
+│ ├── Repositories/
+│ │ ├── IUserRepository.cs
+│ │ ├── IStoreRepository.cs
+│ │ ├── IBrandRepository.cs
+│ │ ├── IProductRepository.cs
+│ ├── Services/
+│ │ ├── IUserService.cs
+│ │ ├── IStoreService.cs
+│ │ ├── IBrandService.cs
+│ │ ├── IProductService.cs
+├── Models/
+│ ├── User.cs
+│ ├── Store.cs
+│ ├── Brand.cs
+│ ├── Product.cs
+│ ├── Address.cs
+├── DTOs/
+│ ├── UserDTOs/
+│ │ ├── UserRegistrationDto.cs
+│ │ ├── LoginDto.cs 
+│ │ ├── ChangePasswordDto.cs
+│ ├── StoreDTOs/ 
+│ │ ├── StoreCreationDto.cs
+│ │ ├── StoreUpdateDto.cs 
+│ ├── BrandDTOs/ 
+│ │ ├── BrandCreationDto.cs
+│ │ ├── BrandUpdateDto.cs 
+│ ├── ProductDTOs/ 
+│ │ ├── ProductCreationDto.cs 
+│ │ ├── ProductUpdateDto.cs 
+├── Middleware/ 
+│ ├── JwtMiddleware.cs 
+├── Extensions/ 
+│ ├── ServiceExtensions.cs 
+├── appsettings.json 
+├── Program.cs 
+├── README.md  
