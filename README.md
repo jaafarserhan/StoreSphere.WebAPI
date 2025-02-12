@@ -33,58 +33,46 @@ StoreSphere is a **.NET Core WebAPI** project that provides a robust backend for
 ---
 
 ## 🗂️ Project Structure
+![image](https://github.com/user-attachments/assets/60ac1aed-863a-4b1b-b16b-794f27b7b153)
 
-StoreSphere.WebAPI/
-├── Controllers/
-│ ├── UserController.cs
-│ ├── StoreController.cs
-│ ├── BrandController.cs
-│ ├── ProductController.cs
-├── Services/
-│ ├── UserService.cs
-│ ├── StoreService.cs
-│ ├── BrandService.cs
-│ ├── ProductService.cs
-├── Repositories/
-│ ├── UserRepository.cs
-│ ├── StoreRepository.cs
-│ ├── BrandRepository.cs
-│ ├── ProductRepository.cs
-├── Interfaces/
-│ ├── Repositories/
-│ │ ├── IUserRepository.cs
-│ │ ├── IStoreRepository.cs
-│ │ ├── IBrandRepository.cs
-│ │ ├── IProductRepository.cs
-│ ├── Services/
-│ │ ├── IUserService.cs
-│ │ ├── IStoreService.cs
-│ │ ├── IBrandService.cs
-│ │ ├── IProductService.cs
-├── Models/
-│ ├── User.cs
-│ ├── Store.cs
-│ ├── Brand.cs
-│ ├── Product.cs
-│ ├── Address.cs
-├── DTOs/
-│ ├── UserDTOs/
-│ │ ├── UserRegistrationDto.cs
-│ │ ├── LoginDto.cs 
-│ │ ├── ChangePasswordDto.cs
-│ ├── StoreDTOs/ 
-│ │ ├── StoreCreationDto.cs
-│ │ ├── StoreUpdateDto.cs 
-│ ├── BrandDTOs/ 
-│ │ ├── BrandCreationDto.cs
-│ │ ├── BrandUpdateDto.cs 
-│ ├── ProductDTOs/ 
-│ │ ├── ProductCreationDto.cs 
-│ │ ├── ProductUpdateDto.cs 
-├── Middleware/ 
-│ ├── JwtMiddleware.cs 
-├── Extensions/ 
-│ ├── ServiceExtensions.cs 
-├── appsettings.json 
-├── Program.cs 
-├── README.md  
+
+---
+
+## Technologies Used
+
+- **Backend**: .NET Core 8.0
+- **Database**: Microsoft SQL Server
+- **ORM**: Entity Framework Core
+- **Authentication**: JWT (JSON Web Tokens)
+- **Email**: SMTP (Outlook) or SendGrid
+- **Caching**: In-memory caching
+- **API Documentation**: Swagger
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+1. **.NET SDK 8.0**: Install the latest .NET SDK from [here](https://dotnet.microsoft.com/download).
+2. **SQL Server**: Install SQL Server or use a cloud-based SQL Server instance.
+3. **SMTP or SendGrid**: Set up an SMTP server (e.g., Outlook) or create a SendGrid account for email functionality.
+
+### Steps to Run the Project
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/StoreSphere.WebAPI.git
+   cd StoreSphere.WebAPI
+
+---
+
+![image](https://github.com/user-attachments/assets/9faee94c-74ad-4cb8-aa5d-a2fb76a392f0)
+
+
+![image](https://github.com/user-attachments/assets/bc34cbaf-45b7-46cb-9a33-22d764b71e91)
+
+
+
+
+
